@@ -12,6 +12,6 @@ export async function GET(req:NextRequest){
         return NextResponse.json({message:"User Found",data:user},{status:200});
     }
     catch (error: any) {
-        return null;
+        return NextResponse.json({ message: "An error occurred", error: error.message }, { status: 500 });
     }
 }
