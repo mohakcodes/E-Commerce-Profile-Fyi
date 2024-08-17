@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+Backend
+
+`MONGO_URI`
+`JWT_SECRET_KEY`
+
+## Authors
+
+[@mohakcodes](https://www.github.com/MOHAKCODES)
 
 ## Getting Started
 
